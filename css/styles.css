@@ -1,0 +1,341 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+    background-color: white;
+}
+
+h1{
+    font-size: 7rem;
+}
+
+/* Header */
+
+.navbar{
+    background-color: black;
+    padding: 2% 10%;
+}
+
+.nav-item{
+    font-size: 1.8rem;
+    margin-left: 10%;
+}
+
+.nav-color{
+    color: #FF7300;
+}
+
+.nav-color:hover{
+    color: white;
+}
+
+.nav-color:focus{
+    color: white;
+}
+
+#header{
+    background-color: black;
+    padding-bottom: 10%;
+}
+
+.heading{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 9rem;
+    padding: 10% 0 1%;
+    color: white;
+    text-align: center;
+}
+
+.sub-heading{
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.header-image1{
+    max-width: 40%;
+    position: absolute;
+    margin: 2% 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.header-image2{
+    max-width: 40%;
+    position: absolute;
+    margin: auto;
+    transform: rotate(180deg);
+    right: 0;
+}
+
+
+/* hello world */
+#hello-world{
+    padding: 12% 15%;
+    text-align: center;
+}
+
+
+/********** OBJECTIVE ***********/
+
+#objective{
+    padding: 4% 15%;
+    text-align: center;
+    color: white;
+    background-color: #FF7300;
+    margin: auto;
+    padding-bottom: 8%;
+}
+.objective-heading{
+    font-size: 7rem;
+    padding: 0 10% 5%;
+}
+
+.objective-image{
+    max-width: 100%;
+}
+
+p{
+    font-size: 2rem;
+}
+
+/* skill */
+#skill{
+    background-color: black;
+    color: #FF7300;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.skill-row{
+    margin-top: 1%;
+}
+
+
+.skill-card{
+    background-color: transparent;
+    padding: 2%;
+    margin: 10%;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+.skill-card:hover{
+    transform: scale(130%);
+    transition: 0.3s;
+}
+
+.skill-p{
+    font-size: 1.5rem;
+}
+
+.skill-heading{
+    font-size: 7rem;
+}
+
+/****qualification***/
+#qualification{
+    background-color: whitesmoke;
+    color: #FF7300;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.qual-card{
+    padding: 2%;
+    margin: 5%;
+    color: black;
+    transition: all 0.5s ease-out;
+}
+
+.qual-card:hover{
+    transform: scale(110%);
+    transition: 0.3s;
+}
+
+.qual-p{
+    font-size: 1.3rem;
+    background-color: black;
+    padding: 5%;
+    color: white;
+}
+
+.school{
+    color:#242424;
+}
+
+.location{
+    font-size: 1.2rem;
+    padding-top: 0;
+    margin-top: 0;
+    color: #242424;
+}
+
+.board{
+    font-size: 1.3rem;
+    color: #FF7300;
+}
+
+.percentage{
+    font-size: 1.3rem;
+    color: green;
+}
+
+.stream{
+    font-size: 1.2rem;
+    color: #242424;
+}
+
+/****FOOTER******/
+#footer{
+    padding: 3% 15% 2%;
+    font-family: 'Outfit', sans-serif;
+    color: grey;
+    text-align: center;
+}
+
+.footer-heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7rem;
+}
+
+.footer-h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.footer-p{
+    font-size: 1rem;
+}
+
+#footer a{
+    color: grey;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    color:orangered;
+}
+
+#footer-a a:active{
+    color:orangered;
+}
+
+#footer a:visited{
+    color: grey;
+}
+
+.project-heading{
+    font-size: 7rem;
+}
+
+.project-img{
+    padding: 15%;
+}
+
+.projects-text{
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+.projects-a{
+    text-decoration: none;
+}
+
+.minor-project-p{
+    font-size: 1.3rem;
+    padding: 5%;
+}
+
+.minor-project-img{
+    border-radius: 12%;
+}
+
+@media (max-width:850px){
+
+    .heading{
+        font-size: 5rem;
+    }
+
+    .sub-heading{
+        font-size: 1.5rem;
+    }
+
+    .header-image1{
+        max-width: 65%;
+    }
+
+    .header-image2{
+        max-width: 65%;
+    }
+
+}
+
+@media (max-width:950px){
+
+    h1{
+        font-size: 5rem;
+    }
+
+    #header{
+        padding-bottom: 15%;
+    }
+
+    .qual-heading{
+        font-size: 3rem;
+    }
+
+    #skill{
+        padding: 10% 15%;
+    }
+
+    .skill-heading{
+        font-size: 4rem;
+    }
+
+    .skill-card{
+        padding: 1%;
+        margin: 4%;
+    }
+
+    .skill-p{
+        font-size: 1.2rem;
+    }
+
+    .objective-heading{
+        font-size: 4rem;
+    }
+
+    .objective-image{
+        max-width: 70%;
+    }
+
+    .objective-p{
+        font-size: 1.5rem;
+        padding: 0%;
+        margin: -5%;
+    }
+
+    #footer{
+        padding: 15% 10%;
+    }
+
+    .footer-heading{
+        font-size: 4rem;
+    }
+
+    .footer-h3{
+        font-size: 1.1rem;
+    }
+
+    .project-heading{
+        font-size: 4rem;
+    }
+    
+
+}
