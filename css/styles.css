@@ -245,7 +245,14 @@ p{
 
 .projects-a{
     text-decoration: none;
+    color: black;
 }
+
+.qual-card a:hover{
+    color: orangered;
+}
+
+
 
 .minor-project-p{
     font-size: 1.3rem;
