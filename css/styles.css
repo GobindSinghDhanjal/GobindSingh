@@ -54,6 +54,11 @@ h1{
     text-align: center;
 }
 
+.mp-sub-heading{
+    font-size: 1.3rem;
+    display: block;
+}
+
 .header-image1{
     max-width: 40%;
     position: absolute;
@@ -256,11 +261,20 @@ p{
 
 .minor-project-p{
     font-size: 1.3rem;
-    padding: 5%;
+    padding: 1% 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: 600;
 }
 
 .minor-project-img{
     border-radius: 12%;
+}
+
+.major-project-img{
+    border-radius: 12%;
+    height: 400px;
+    object-fit: contain;
 }
 
 @media (max-width:850px){
